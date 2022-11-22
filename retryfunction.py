@@ -8,5 +8,5 @@ def retry(operation, attempts):
     else:
       print("Attempt " + str(n) + " failed")
 
-retry(create_user, 3)
-retry(stop_service, 5)
+#retry(create_user, 3)
+#retry(stop_service, 5)
